@@ -6,7 +6,7 @@
 <p>This game (just like other similar games) aims to improve one's memory power and reaction time.</p>
 
 ## Play Memory Tiles
-
+Click on [Memory Tiles](https://shree675.github.io/MemoryTiles/) to play the game.
 
 ## Version
 v1.0
