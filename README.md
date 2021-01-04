@@ -10,4 +10,4 @@ This game (just like other similar games) aims to improve one's memory power and
 Click on [Memory Tiles](https://shree675.github.io/MemoryTiles/) to play the game.
 
 ## Version
-v1.0
+v1.2
