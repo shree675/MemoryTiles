@@ -196,6 +196,31 @@ body {
 	transition-duration: 0.2s;
 }
 
+.play-again {
+	font-size: 32px;
+	font-family: sans-serif;
+	color: white;
+	border-radius: 8px;
+	background-color: #448ccc;
+	outline: none;
+	border: 1px solid #454545;
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	display: none;
+}
+
+.play-again:hover {
+	font-size: 32px;
+	font-family: sans-serif;
+	color: #448ccc;
+	background-color: white;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+}
+
 @media (min-width: 768px) {
 	.large {
 		float: left;
@@ -252,7 +277,7 @@ body {
 }
 }
 
-@media (min-width: 0px) and (max-width: 767px){
+@media (min-width: 525px) and (max-width: 767px){
 	.medium {
 		float: left;
 		width: 50%;
@@ -315,6 +340,212 @@ body {
 	font-family: monospace;
 	color: #cccccc;
 	}
+}
+
+@media (max-width: 524px){
+	.medium {
+		float: left;
+		width: 50%;
+	}
+	.medium:hover {
+		float: left;
+		width: 50%;
+	}
+
+	.navbar {
+	height: 52px;
+	padding-top: 10px;
+	background-color: #113344;
+	margin: 0;
+	position: relative;
+	padding-bottom: 0;
+}
+
+#heading {
+	padding-left: 10px;
+	font-size: 28px;
+	color: #ffffff;
+	font-family: monospace;
+	float: left;
+}
+
+	#time-display {
+		display: none;
+	}
+
+	#score {
+		float: right;
+		color: white;
+		font-family: monospace;
+		font-size: 18px;
+		margin-right: 5px;
+		padding-right: 5px;
+		margin-top: 5px;
+	}
+	#scores-info {
+	margin: 50px;
+	display: table;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background-color: #565656;
+	padding: 15px;
+	text-align: center;
+	transition-duration: 0.5s;
+	}
+
+	#s {
+	font-size: 20px;
+	font-family: monospace;
+	color: white;
+	padding-bottom: 15px;
+	}
+
+	#initial {
+	margin: 50px;
+	display: table;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	background-color: #565656;
+	padding: 15px;
+	text-align: center;
+	transition-duration: 0.5s;
+	}
+
+	#instructions {
+	font-size: 20px;
+	font-family: monospace;
+	color: white;
+	padding-bottom: 10px;
+	}
+
+	#ins-comments {
+	font-size: 12px;
+	font-family: monospace;
+	color: #cccccc;
+	}
+
+	#comments {
+	font-size: 12px;
+	font-family: monospace;
+	color: #cccccc;
+	}
+
+	#home {
+	float: right;
+	background-color: #454545;
+	color: #cccccc;
+	font-family: monospace;
+	font-size: 16px;
+	padding: 3px;
+	padding-top: 5px;
+	padding-bottom: 6px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+#home:hover {
+	float: right;
+	background-color: #ccc;
+	color: #454545;
+	font-family: monospace;
+	font-size: 16px;
+	padding: 3px;
+	border-radius: 5px;
+	margin-right: 10px;
+	transition-duration: 0.5s;
+}
+
+#home a:hover, a:active {
+	text-decoration: none;
+	color: #454545;
+	padding: 3px;
+}
+
+#home a:link, a:visited {
+	text-decoration: none;
+	color: #ccc;
+	padding: 3px;
+}
+
+	#time {
+	font-size: 18px;
+	font-family: monospace;
+	color: white;
+	position: relative;
+	top: 5px;
+	margin: 10px;
+}
+
+#time-num {
+	color: #ff8c00;
+	font-size: 20px;
+	padding-left: 3px;
+}
+
+#home-button {
+	float: right;
+	background-color: #448ccc;
+	color: #cccccc;
+	font-family: monospace;
+	font-size: 16px;
+	padding: 3px;
+	border-radius: 5px;
+	margin-right: 10px
+}
+
+#home-button:hover {
+	float: right;
+	background-color: #ccc;
+	font-family: monospace;
+	font-size: 16px;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.retr:hover {
+	text-decoration: none;
+	outline: none;
+	border: 1px solid #ccc;
+	color: #448ccc;		
+	background-color: #ccc;	
+	cursor: pointer;			
+}
+
+.retr {
+	text-decoration: none;
+	outline: none;
+	border: 1px solid #448ccc;
+	background-color: #448ccc;
+	color: #ccc;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+.play-again {
+	font-size: 26px;
+	font-family: sans-serif;
+	color: white;
+	border-radius: 8px;
+	background-color: #448ccc;
+	outline: none;
+	border: 1px solid #454545;
+	padding: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	display: none;
+}
+
+.play-again:hover {
+	font-size: 26px;
+	font-family: sans-serif;
+	color: #448ccc;
+	background-color: white;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+}
+
 }
 
 .button2 .svg-class {
@@ -384,31 +615,6 @@ ul {
 
 #extra {
 	margin-top: -80px;
-}
-
-.play-again {
-	font-size: 32px;
-	font-family: sans-serif;
-	color: white;
-	border-radius: 8px;
-	background-color: #448ccc;
-	outline: none;
-	border: 1px solid #454545;
-	padding: 10px;
-	font-weight: bold;
-	cursor: pointer;
-	transition-duration: 0.4s;
-	display: none;
-}
-
-.play-again:hover {
-	font-size: 32px;
-	font-family: sans-serif;
-	color: #448ccc;
-	background-color: white;
-	border-radius: 8px;
-	outline: none;
-	cursor: pointer;
 }
 
 .play-again2 {
